@@ -68,18 +68,18 @@ while(True):
     else:
         break
 
-print("Saving data to config file")
-conf_data = json.dumps(data, indent=2)
-
-with open("config.json", "w") as f:
-    f.write(conf_data)
-
 if(operating_sys != "Windows"):
     print("Adding executable privleges to pocketbase binary")
     subprocess.run(['chmod', 'a+x', f'pocketbase-{operating_sys}-{architecture}'])
     print("Executable formatted")
 
 data["executable"] = True
+
+print("Saving data to config file")
+conf_data = json.dumps(data, indent=2)
+
+with open("config.json", "w") as f:
+    f.write(conf_data)
 
 print("Data saved! Run main.py to begin")
     
