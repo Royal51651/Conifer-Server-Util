@@ -1,5 +1,6 @@
 {
   "os": "",
   "architecture": "",
-  "extracted": false
+  "extracted": false,
+  "executable": false
 }
