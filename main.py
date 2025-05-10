@@ -1,6 +1,6 @@
 import subprocess
 import json
-print("Fira Server Launcher")
+print("Conifer Server Launcher")
 try:
     with open('config.json') as f:
         settings = json.load(f)

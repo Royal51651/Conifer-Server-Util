@@ -9,7 +9,7 @@ data = {
     "extracted": False,
     "executable": False,
 }
-print("Fira Server Setup")
+print("Conifer Server Setup")
 print("Is port forwarding currently enabled on your network, and pointing to your machine (yes / no)")
 while(True):
     choice = input(": ")
