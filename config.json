@@ -1,6 +1,6 @@
 {
-  "os": "Windows",
-  "architecture": "x86_64",
-  "extracted": true,
-  "executable": true
+  "os": "",
+  "architecture": "",
+  "extracted": false,
+  "executable": false
 }
